@@ -5,6 +5,8 @@ body {
     padding: 0;
     background-color: white;
 }
+
+
 .header {
     display: flex;
     justify-content: space-between;
