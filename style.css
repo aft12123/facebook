@@ -3,14 +3,14 @@ body {
     font-family: inherit;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5;
+    background-color: white;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #0211babb;
+    background-color: blue;
     color: white;
     
 }
