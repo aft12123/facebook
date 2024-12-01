@@ -4,86 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <div class="header">
-            <div class="logo">
-                <i class="fab fa-facebook"></i>
-            </div>
-            <div class="search-bar">
-                <input type="text" placeholder="Search Facebook">
-            </div>
-            <div class="nav-icons">
-                <i class="fas fa-home"></i>
-                <i class="fas fa-users"></i>
-                <i class="fas fa-video"></i>
-                <i class="fas fa-store"></i>
-                <i class="fas fa-bell"></i>
-                <i class="fas fa-user-circle"></i>
+<div class="header">
+        <div class="logo">
+            <i class="fab fa-facebook"></i>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Facebook">
+        </div>
+        <div class="header-icons">
+            <i class="fas fa-home"></i>
+            <i class="fas fa-user-friends"></i>
+            <i class="fas fa-bell"></i>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </div>
+   <div class="main-container">
+        <div class="sidebar">
+            <ul>
+                <li><i class="fas fa-user"></i> Profile</li>
+                <li><i class="fas fa-user-friends"></i> Friends</li>
+                <li><i class="fas fa-bookmark"></i> Saved</li>
+                <li><i class="fas fa-users"></i> Groups</li>
+                <li><i class="fas fa-video"></i> Videos</li>
+                <li><i class="fas fa-calendar-alt"></i> Events</li>
+            </ul>
+        </div>
+        <div class="feed">
+            <div class="post">
+                <div class="post-header">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Aftab</span>
+                </div>
+                <div class="post-content">
+                    <p>India beat Aus in BGT 2024</p>
+                    <img src="India.avif">
+                    <img src="india.2.jpg">
+                </div>
             </div>
         </div>
-
-        <!-- Main Layout -->
-        <div class="layout">
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <div class="user-info">
-                    <i class="fas fa-user-circle"></i>
-                    <p>Aftab Ahmad</p>
-                </div>
-                <ul>
-                    <li><i class="fas fa-user-friends"></i> Find friends</li>
-                    <li><i class="fas fa-clock"></i> Memories</li>
-                    <li><i class="fas fa-bookmark"></i> Saved</li>
-                    <li><i class="fas fa-users"></i> Groups</li>
-                    <li><i class="fas fa-video"></i> Video</li>
-                    <li><i class="fas fa-store"></i> Marketplace</li>
-                    <li><i class="fas fa-newspaper"></i> Feeds</li>
-                    <li><i class="fas fa-calendar-alt"></i> Events</li>
-                    <li><i class="fas fa-ad"></i> Ads Manager</li>
-                    <li><i class="fas fa-hand-holding-heart"></i> Fundraisers</li>
-                    <li><i class="fas fa-ellipsis-h"></i> See more</li>
-                </ul>
-            </div>
-
-            <!-- Feed -->
-            <div class="feed">
-                <div class="create-post">
-                    <input type="text" placeholder="What's on your mind, Aftab?">
-                    <div class="post-options">
-                        <button><i class="fas fa-video"></i> Live Video</button>
-                        <button><i class="fas fa-photo-video"></i> Photo/Video</button>
-                        <button><i class="fas fa-smile"></i> Feeling/Activity</button>
-                    </div>
-                </div>
-                <div class="story">
-                    <button>Create Story</button>
-                </div>
-                <div class="post">
-                    <h3>Mechanical Engineering ⚙️</h3>
-                    <p>If you interest 🔥 I'll send U pdf, It's totally free 📚</p>
-                    <img src="mechanical-book.jpg" alt="Mechanical Engineering Principles">
-                </div>
-            </div>
-
-            <!-- Right Sidebar -->
-            <div class="right-sidebar">
-                <div class="sponsored">
-                    <h3>Sponsored</h3>
-                    <p>ICICI Bank</p>
-                    <p>Watch Video</p>
-                </div>
-                <div class="contacts">
-                    <h3>Contacts</h3>
-                    <p>Aslam Sanadi</p>
-                </div>
-                <div class="group-chats">
-                    <button>Create group chat</button>
-                </div>
+        <div class="right-sidebar">
+            <div class="sponsored">
+                <h4>Sponsored</h4>
+                <img src="byju.jpg" alt="Ad">
             </div>
         </div>
     </div>

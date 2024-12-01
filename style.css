@@ -1,164 +1,102 @@
-/* General Reset */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f2f5;
 }
-
-/* Header */
 .header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: #fff;
+    align-items: center;
     padding: 10px 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    background-color: #0211babb;
+    color: white;
+    
 }
-
 .header .logo {
-    font-size: 28px;
-    color: #1877f2;
+    font-size: 30px;
 }
 
 .header .search-bar input {
     width: 300px;
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    border:3px solid black;
+    margin-right: 1090px;
+    
+    
 }
 
-.header .nav-icons i {
-    margin: 0 10px;
+.header .header-icons i {
     font-size: 20px;
+    margin:  10px;
     cursor: pointer;
 }
-
-/* Layout */
-.layout {
+.main-container {
     display: flex;
-    margin-top: 10px;
+    padding: 20px;
+    gap: 20px;
 }
-
-/* Sidebar */
 .sidebar {
-    flex: 1;
-    background-color: #fff;
-    padding: 15px;
-    height: calc(100vh - 60px);
-    overflow-y: auto;
-    border-right: 1px solid #ddd;
+    width: 200px;
+    background: white;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-right:40px ;
+    
 }
-
-.sidebar .user-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.sidebar .user-info i {
-    font-size: 30px;
-    margin-right: 10px;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
-
 .sidebar ul li {
+    margin: 10px 0;
     display: flex;
     align-items: center;
-    padding: 10px 0;
+    gap: 10px;
     cursor: pointer;
-    color: #555;
+    background: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+   margin-right: 20px;
 }
-
-.sidebar ul li i {
-    margin-right: 10px;
-}
-
-/* Feed */
 .feed {
-    flex: 2;
-    padding: 15px;
-}
-
-.create-post {
-    background-color: #fff;
+    
+    background: white;
     padding: 15px;
     border-radius: 5px;
-    margin-bottom: 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.create-post input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
-}
-
-.post-options button {
-    background-color: #f0f2f5;
-    border: none;
-    padding: 10px 15px;
-    margin-right: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.story {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.story button {
-    padding: 10px 15px;
-    background-color: #42b72a;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+   
 }
 
 .post {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 5px;
     margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.post img {
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.post-content img {
     width: 100%;
     border-radius: 5px;
     margin-top: 10px;
 }
-
-/* Right Sidebar */
 .right-sidebar {
-    flex: 1;
-    background-color: #fff;
+    width: 400px;
+    background: white;
     padding: 15px;
-    border-left: 1px solid #ddd;
-    height: calc(100vh - 60px);
-}
-
-.sponsored, .contacts, .group-chats {
-    margin-bottom: 20px;
-}
-
-.group-chats button {
-    background-color: #f0f2f5;
-    border: 1px solid #ddd;
-    padding: 10px 15px;
     border-radius: 5px;
-    cursor: pointer;
+    
+}
+.right-sidebar h4 {
+    margin-bottom: 5px;
+}
+
+.right-sidebar img{
+    height: 200px;
+    width: 400px;
+    
 }
